@@ -1,3 +1,4 @@
+document.body.style.backgroundImage = "url(background-image.jpg)";
 // Sidebar Toggling
 let sidebarContainer = document.querySelector('.sidebar-container');
 let sidebarIcon = document.querySelector('.sidebar-icon');
