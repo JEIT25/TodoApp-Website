@@ -1,3 +1,9 @@
+//play music in background
+window.addEventListener("mouseover", () => {
+    const audio = document.querySelector("audio");
+    audio.volume = 1;
+    audio.play();
+});
 // Sidebar Toggling
 let sidebarContainer = document.querySelector('.sidebar-container');
 let sidebarIcon = document.querySelector('.sidebar-icon');
