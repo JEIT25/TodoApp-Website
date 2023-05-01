@@ -1,5 +1,5 @@
 //play music in background
-window.addEventListener("mouseover", () => {
+window.addEventListener("click", () => {
     const audio = document.querySelector("audio");
     audio.volume = 1;
     audio.play();
