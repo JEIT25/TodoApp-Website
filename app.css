@@ -5,7 +5,7 @@ body {
     font-family: 'Roboto Mono', monospace;
     display: flex;
     flex-direction: column;
-    background-image: url("body-image.jpg");
+    background-image: url("body-background.jpg");
 }
 
 /* Pre-defined styles */
