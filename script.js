@@ -3,7 +3,7 @@ let sidebarContainer = document.querySelector('.sidebar-container');
 let sidebarIcon = document.querySelector('.sidebar-icon');
 let closeIcon = document.createElement('img')
 let okBtn = document.querySelector('.ok-btn');
-closeIcon.src = 'Icons/close-icon.svg';
+closeIcon.src = 'close-icon.svg';
 closeIcon.style.alignSelf = 'center';
 closeIcon.classList.add('sidebar-item2');
 sidebarIcon.addEventListener('click', (evt) => {
@@ -51,8 +51,8 @@ addTodoBtn.addEventListener('click', () => {
             todoDescription.innerText = newTodoList[i];
             let deleteTodo = document.createElement('img');
             let checkTodo = document.createElement('img');
-            deleteTodo.src = 'Icons/delete-icon.svg';
-            checkTodo.src = 'Icons/check-icon.svg';
+            deleteTodo.src = 'delete-icon.svg';
+            checkTodo.src = 'check-icon.svg';
             for (j = 0; j < newTodoList.length; j++) {
                 layer2.append(checkTodo);
                 layer2.append(deleteTodo);
