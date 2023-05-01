@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+    <title>Jeit Todo App</title>
+</head>
+
+<body>
+    <nav class="navbar-container">
+        <section class="left-side-section cont">
+            <img class="l-icon creator" src="Images/jeit-logo.png" alt="jeit logo">
+            <img class="sidebar-icon l-icon h" src="Icons/sidebar-icon.svg" alt="sidebar l-icon">
+            <img class="home-icon l-icon h" src="Icons/home-icon.svg" alt="home icon">
+            <section class="search-bar-container cont">
+                <img class="search-icon" src="Icons/search-icon.svg" alt="search-icon">
+                <input class="search-bar" type="text" placeholder="Search">
+            </section>
+        </section>
+        <section class="right-side-section cont">
+            <section class="subscription-container cont">
+                <img class="star-icon r-icon"
+                    src="https://icons.veryicon.com/png/o/application/small-yellow-icon-2-1/star-102.png"
+                    alt="star icon">
+                <p class="subscription-button">Subscribe to Pro</p>
+            </section>
+            <img class="notification-bell-icon r-icon h" src="Icons/notification-bell-icon.svg" alt="notif icon">
+            <img class="user-pfp r-icon" src="Images/profile-pict1.jpg" alt="user pict">
+        </section>
+    </nav>
+    <aside class="sidebar-container">
+        <section class="h">
+            <p class="sidebar-text">
+                Dashboard
+            </p>
+            <img class="sidebar-item1" src="Icons/dashboard-icon.svg" alt="dashbaord icon">
+        </section>
+        <section class="h">
+            <p class="sidebar-text">
+                Todays Tasks
+            </p>
+            <img class="sidebar-item2" src="Icons/notebook-65.svg" alt="
+                dashbaord icon">
+        </section>
+        <section class="h">
+            <p class="sidebar-text">
+                Upcoming Tasks
+            </p>
+            <img class="sidebar-item2" src="Icons/calendar-icon2.svg" alt="dashbaord icon">
+        </section>
+    </aside>
+
+    <section class="done-pop-up-container Mcont">
+        <img src="Icons/check-todo-icon.svg" alt="check icon">
+        <h1>Well Done!</h1>
+        <p class="done-message">You have completed this task at </p>
+        <button class="ok-btn">Okay</button>
+    </section>
+
+    <main class="main-content Mcont">
+        <section class="date-container cont">
+            <p class="medium-text">Today</p>
+        </section>
+        <section class="create-newtodo-container Mcont">
+            <input class="todo-input font" type="text" placeholder="Today's Task">
+            <button class="add-button font">Add Task</button>
+        </section>
+        <section class="todo-list-container font"></section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</body>
+
+</html>
