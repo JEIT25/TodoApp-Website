@@ -3,9 +3,10 @@ body {
     margin: 0 0;
     box-sizing: border-box;
     font-family: 'Roboto Mono', monospace;
-    background-image: url("Images/body-background.jpg");
+    background-image: url("body-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-
 /* Pre-defined styles */
 .small-text {
     font-family: 'Roboto Mono', monospace;
